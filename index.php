@@ -18,7 +18,7 @@
         <span class="text">BloodDonation</span>
         </a>
         <ul class="side-menu top">
-            <li>
+            <li class="active">
                 <a href="#">
                 <i class='bx bxs-dashboard'></i>
                 <span class="text">Dashboard</span>
@@ -62,19 +62,158 @@
     <!--Content-->
     <section id="content">
         <!--navbar-->
-        <i class='bx bx-menu' ></i>
-        <a href="" class="nav-link">Categories</a>
-        <form action="#">
-            <div class="form-input">
-                <input type="search" placeholder="search...">
-                <button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+        <nav>
+            <i class='bx bx-menu' ></i>
+            <a href="" class="nav-link">Categories</a>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Search">
+                    <button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+                </div>
+            </form>
+            <a href="#" class="notification">
+            <i class='bx bxs-bell' ></i>
+            <span class="num">9</span>
+            <a href="" class="profile">
+                <img src="" alt="">
+            </a>
+        </nav>
+
+        <!--main-->
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <h1>Dashboard</h1>
+                    <ul class="breadcramp">
+                        <li>
+                            <a href="#">Dashboard</a>
+                        </li>
+                        <li><i class='bx bxs-chevron-right'></i></li>
+                        <li><a  class="active" href="#">Home</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="btn-download">
+                <i class='bx bxs-cloud-download' ></i>
+                <span class="text">Download Form</span>
+                </a>
             </div>
-        </form>
-        <a href="#" class="notification">
-        <i class='bx bxs-bell' ></i>
-        <span class="num">9</span>
-        <img src="" alt="">
-        </a>
+            <ul class="box-info">
+                <li>
+                    <i class='bx bxs-file-plus'></i>
+                    <span class="text">
+                        <h3>050</h3>
+                        <p>New Donor</p>
+                    </span>
+                </li>
+                <li>
+                    <i class='bx bxs-group' ></i>
+                    <span class="text">
+                        <h3>030</h3>
+                        <p>Registered Blood Group</p>
+                    </span>
+                </li>
+                <li>
+                    <i class='bx bx-injection'></i>
+                    <span class="text">
+                        <h3>005</h3>
+                        <p>Blood Request</p>
+                    </span>
+                </li>
+            </ul>
+            <div class="table-data">
+                <div class="order">
+                    <div class="head">
+                        <h3>Blood Requests</h3>
+                        <i class='bx bx-search-alt' ></i>
+                        <i class='bx bx-filter' ></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Date Ordered</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="">
+                                    <p>Robert Ochieng</p>
+                                </td>
+                                <td>07.11.2022</td>
+                                <td><span class="status completed">Good</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="">
+                                    <p>Patrick Okinyi</p>
+                                </td>
+                                <td>07.11.2022</td>
+                                <td><span class="status pending">Bad</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="">
+                                    <p>Getrude Masitsa</p>
+                                </td>
+                                <td>07.11.2022</td>
+                                <td><span class="status process">Medium</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="">
+                                    <p>Sandra Lilians</p>
+                                </td>
+                                <td>07.11.2022</td>
+                                <td><span class="status pending">Bad</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="">
+                                    <p>Chris Lonex</p>
+                                </td>
+                                <td>07.11.2022</td>
+                                <td><span class="status process">Medium</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="">
+                                    <p>Gedion Musila</p>
+                                </td>
+                                <td>07.11.2022</td>
+                                <td><span class="status process">Bad</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="todo">
+                    <div class="head">
+                        <h3>Blood Groups</h3>
+                        <i class='bx bx-search-alt' ></i>
+                        <i class='bx bx-filter' ></i>
+                    </div>
+                    <ul class="todo-list">
+                        <li class="completed">
+                            <p>Blood Group A</p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                        <li class="completed">
+                            <p>Blood Group B</p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                        <li class="completed">
+                            <p>Blood Group AB</p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                        <li class="completed">
+                            <p>Blood Group O</p>
+                            <i class='bx bx-dots-vertical-rounded' ></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
     </section>
     <script src="./JS/main.js"></script>
 </body>
