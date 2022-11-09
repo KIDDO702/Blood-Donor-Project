@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
-    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="center">
@@ -13,16 +13,18 @@
         <form method="POST">
             <div class="txt-field">
                 <input type="text" required>
-                <label>Username</label>
+                <span></span>
+                <label>Email or Phone number</label>
             </div>
             <div class="txt-field">
                 <input type="password" required>
+                <span></span>
                 <label>Password</label>
             </div>
             <div class="pass">Forgot password?</div>
             <input type="submit" value="LogIn">
             <div class="signup-link">
-                Not a member? <a href="#">Sign up</a>
+                Not a member <a href="#">SignUp</a>
             </div>
         </form>
     </div>
