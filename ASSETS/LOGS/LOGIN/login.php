@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
     <div class="center">
-        <h1>LogIn</h1>
+        <h1>BloodDonation</h1>
         <form method="POST">
             <div class="txt-field">
                 <input type="text" required>

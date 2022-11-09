@@ -38,6 +38,7 @@ body {
   text-align: center;
   padding: 0 0 20px 0;
   border-bottom: 2px solid var(--blood-red);
+  color: var(--blood-red);
 }
 .center form {
   padding: 0 40px;
