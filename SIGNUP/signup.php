@@ -25,7 +25,12 @@
             <div class="txt-field">
                 <input type="text" required>
                 <span></span>
-                <label>Email Address</label>
+                <label>Username</label>
+            </div>
+            <div class="txt-field">
+                <input type="text" required>
+                <span></span>
+                <label>Email Address or Phone number</label>
             </div>
             <div class="txt-field">
                 <input type="password" required>
