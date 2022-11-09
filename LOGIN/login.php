@@ -25,7 +25,7 @@
             <div class="pass">Forgot password?</div>
             <input type="submit" value="LogIn">
             <div class="signup-link">
-                Not a member <a href="/SIGNUP/signup.php">SignUp</a>
+                Not a member <a href="">SignUp</a>
             </div>
         </form>
     </div>
