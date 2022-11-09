@@ -101,6 +101,7 @@ form .txt-field {
 
 .pass:hover {
   text-decoration: underline;
+  color: var(--blood-red);
 }
 
 input[type=submit] {
