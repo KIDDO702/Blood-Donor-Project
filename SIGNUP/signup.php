@@ -15,17 +15,32 @@
             <div class="txt-field">
                 <input type="text" required>
                 <span></span>
-                <label>Email or Phone number</label>
+                <label>First Name</label>
+            </div>
+            <div class="txt-field">
+                <input type="text" required>
+                <span></span>
+                <label>Last Name</label>
+            </div>
+            <div class="txt-field">
+                <input type="text" required>
+                <span></span>
+                <label>Email Address</label>
             </div>
             <div class="txt-field">
                 <input type="password" required>
                 <span></span>
                 <label>Password</label>
             </div>
-            <div class="pass">Forgot password?</div>
-            <input type="submit" value="LogIn">
+            <div class="txt-field">
+                <input type="password" required>
+                <span></span>
+                <label>Confirm password</label>
+            </div>
+            <div class="pass"></div>
+            <input type="submit" value="SignUp">
             <div class="signup-link">
-                Not a member <a href="#">SignUp</a>
+                Welcome to <a href="#">BloodDonation</a>
             </div>
         </form>
     </div>
